@@ -1,0 +1,15 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: ClearanceClarence.SpaceSharp
+PackageVersion: 1.2.2
+InstallerLocale: en-US
+InstallerType: wix
+ProductCode: '{3AA6D54A-AC2D-4BF0-A131-CAF045AB6252}'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/ClearanceClarence/SpaceSharp/releases/download/1.2.2/SpaceSharp-win-x64.msi
+  InstallerSha256: 3A64F7317A40D6E09836C6B5ED327DCDA4774DCED720F368089C1CC4C444CB4F
+ManifestType: installer
+ManifestVersion: 1.12.0
+ReleaseDate: 2026-09-27
